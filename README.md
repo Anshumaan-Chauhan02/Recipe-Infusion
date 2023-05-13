@@ -38,7 +38,7 @@ Two different areas where our datasets were used are Fine tuning of DistilGPT2 (
 #### 8) Matplotlib: Plotting of the training curves 
     pip install matplotlib
 
-### File Content and Description 
+### File Content and Sub-Task Description 
 * RecipeDataset.ipynb : 
      * Loading of both Recipes datasets 
      * Preprocessing the datasets to get into a common useful format 
@@ -75,10 +75,12 @@ Two different areas where our datasets were used are Fine tuning of DistilGPT2 (
      * Check for style infusion on random sentences 
 
 ### Steps to successfully run the project
-1) 
-2) 
-3)
-4)
-5)
-6)
+Except training (due to computational limitations) of the LLMs all of the code was implemented in Google Colab. We have listed the steps that needed to be followed for a successful implementation of the project.
+1) Download all the .ipynb files and upload them in a new folder on Google Drive named 'Project 685'
+2) Download all the Recipe Datasets and upload the zip files on the Drive
+3) Run RecipeDataset.ipynb to get the 'Final_dataset' file, which consists of the preprocessed concatenated dataset
+4) Run Statistics.ipynb file to know some statistics about the datasets [OPTIONAL]
+5) Run Recipe_Generation_DistilGPT.ipynb to get the finetuned recipe generation model 
+6) Download the Text Style Transfer datasets. Create a new sub-folder {persona}_TST. For example, Taylor_TST
+7)
 

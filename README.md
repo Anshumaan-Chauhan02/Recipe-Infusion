@@ -21,19 +21,21 @@ Two different areas where our datasets were used are Fine tuning of DistilGPT2 (
       * https://www.kaggle.com/datasets/nasirkhalid24/the-office-us-complete-dialoguetranscript 
 
 ### Libraries Used and Installation Steps: 
-## Numpy : 
-    pip install numpy  
-## Pandas :
+##### Numpy : 
+    Numpy was used to perform several mathematical evaluations in the preprocessing of the datasets
+       pip install numpy  
+##### Pandas :
+    Loading/Processing/Storing of the different datasets
     pip install pandas 
-## Itertools : 
+##### Itertools : 
     pip install itertools 
-## Sklearn : 
+##### Sklearn : 
     pip install sklearn 
-## Transformers : 
+##### Transformers : 
     pip install transformers 
-## SentencePiece : 
+##### SentencePiece : 
     pip install sentencepiece  
-## Evaluate :
+##### Evaluate :
     pip install evaluate   
 
 ### File Content and Description 

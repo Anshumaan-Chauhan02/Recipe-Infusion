@@ -1,4 +1,5 @@
 <h2 align='center'> Recipe Infusion </h2>
+<p> In this porject we aim to create a framework, which includes a Recipe generation model - DistilGPT2, generates unique recipes given a list of ingredients. These synthetic recipes are then processed by a T5 (style transfer model), to infuse style of different personas in the recipe. </p>
 
 ### Dataset Information:
 Two different areas where our datasets were used are Fine tuning of DistilGPT2 (Recipe Generation) and T5-small model (for text style transfer)
@@ -19,3 +20,23 @@ Two different areas where our datasets were used are Fine tuning of DistilGPT2 (
       * Dialogues of all characters from The Office
       * https://www.kaggle.com/datasets/nasirkhalid24/the-office-us-complete-dialoguetranscript 
 
+### Libraries Used and Installation Steps: 
+* Numpy : 
+   * pip install numpy  
+* Pandas :
+   * pip install pandas 
+* Itertools : 
+   * pip install itertools 
+* Sklearn : 
+   * pip install sklearn 
+* Transformers : 
+   * pip install transformers 
+* SentencePiece : 
+   * pip install sentencepiece  
+* Evaluate :
+   * pip install evaluate   
+
+### File Content and Description 
+
+
+### Steps to successfully run the project

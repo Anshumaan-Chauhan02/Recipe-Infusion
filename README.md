@@ -1,6 +1,6 @@
 <h2 align='center'> Recipe Infusion </h2>
 
-###Dataset Information:
+### Dataset Information:
 Two different areas where our datasets were used are Fine tuning of DistilGPT2 (Recipe Generation) and T5-small model (for text style transfer)
 * Recipe Generation
   * RecipeNLG : https://recipenlg.cs.put.poznan.pl/

@@ -39,10 +39,23 @@ Two different areas where our datasets were used are Fine tuning of DistilGPT2 (
     pip install matplotlib
 
 ### File Content and Description 
-* RecipeDataset.ipynb :
+* RecipeDataset.ipynb : 
+     * Loading of both Recipes datasets 
+     * Preprocessing the datasets to get into a common useful format 
+     * Performing statistical analysis on the data
+     * Storing the final concatenated dataset 
 * Statistics.ipynb :
+     * Statistical analysis on the preprocessed datasets and the final concatenated dataset 
 * Recipe_Generation_DistilGPT.ipynb :
+     * Loading of the final recipe dataset 
+     * Data Preparation of the final dataset 
+     * Training of DistilGPT2 Model 
+     * Testing of the Finetuned (FT) model and baseline model 
+     * Evaluation of the models - BLEU Score and Perplexity 
+     * Generation of Recipe dataset for Style Transfer
+     * Error Analysis on Adversarial inputs  
 * Preprocess_TST_dataset.ipynb : 
+     *  
 * Shakespeare_and_Scripts_Preprocessing.ipynb : 
 * BackTranslation.ipynb :
 * TST_Architecture.ipynb :

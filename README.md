@@ -1,10 +1,21 @@
 <h2 align='center'> Recipe Infusion </h2>
 
-### Notes
-* Ratatouille (GPT-2 trained model) not publicly available : https://cosylab.iiitd.edu.in/ratatouille2/ (Only available through an API)
-* RecipeDB not available entirely
-  * https://cosylab.iiitd.edu.in/recipedb/ (Also available through an API)
-  * Dataset available at this Github: https://github.com/cosylabiiit/Recipedb-companion-data
-* T5 recipe generation model available - trained on RecipeNLG : https://huggingface.co/flax-community/t5-recipe-generation
-* Recipe NLG publicly available : https://recipenlg.cs.put.poznan.pl/
-* RecipeBox available: https://eightportions.com/datasets/Recipes/
+###Dataset Information:
+Two different areas where our datasets were used are Fine tuning of DistilGPT2 (Recipe Generation) and T5-small model (for text style transfer)
+* Recipe Generation
+  * RecipeNLG : https://recipenlg.cs.put.poznan.pl/
+  * RecipeBox : https://eightportions.com/datasets/Recipes/
+* Text Style Transfer
+  * William Shakespeare : 
+      * Translations of Shakespeare plays to Modern English 
+      * https://www.kaggle.com/datasets/garnavaurha/shakespearify
+  * Taylor Swift : 
+      * Song Lyrics of Taylor Swift's albums
+      * https://www.kaggle.com/datasets/PromptCloudHQ/taylor-swift-song-lyrics-from-all-the-albums
+  * Donald Trump : 
+      * Tweets of Donald Trump till June 2020
+      * https://www.kaggle.com/datasets/austinreese/trump-tweets
+  * Michael Scott : 
+      * Dialogues of all characters from The Office
+      * https://www.kaggle.com/datasets/nasirkhalid24/the-office-us-complete-dialoguetranscript 
+

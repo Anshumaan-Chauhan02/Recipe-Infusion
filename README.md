@@ -55,10 +55,24 @@ Two different areas where our datasets were used are Fine tuning of DistilGPT2 (
      * Generation of Recipe dataset for Style Transfer
      * Error Analysis on Adversarial inputs  
 * Preprocess_TST_dataset.ipynb : 
-     *  
+     *  Loading the non-parallel data - Taylor and Trump
+     *  Preprocess the datasets
+     *  Extract some statistical info about the dataset 
 * Shakespeare_and_Scripts_Preprocessing.ipynb : 
+     *  Loading the non-parallel data - Michael 
+     *  Load the parallel data -  Shakespeare 
+     *  Preprocess the datasets
+     *  Extract some statistical info about the dataset
 * BackTranslation.ipynb :
+     * Load the MarianMT models for Fr-En and En-Fr
+     * Perform back translation to generate synthetic parallel data - Michael, Taylor and Trump
+     * Store the parallel dataset  
 * TST_Architecture.ipynb :
+     * Load all the parallel datasets 
+     * Finetune a different T5-small model on each dataset 
+     * Generate styled recipes - Sentence-wise and Entire Recipe
+     * Test the performance (Human Evaluation) on the styled recipes (Sentence-wise)
+     * Check for style infusion on random sentences 
 
 ### Steps to successfully run the project
 1) 

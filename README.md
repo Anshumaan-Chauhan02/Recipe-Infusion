@@ -22,19 +22,19 @@ Two different areas where our datasets were used are Fine tuning of DistilGPT2 (
 
 ### Libraries Used and Installation Steps: 
 * Numpy : 
-   * pip install numpy  
+   pip install numpy  
 * Pandas :
-   * pip install pandas 
+   pip install pandas 
 * Itertools : 
-   * pip install itertools 
+   pip install itertools 
 * Sklearn : 
-   * pip install sklearn 
+   pip install sklearn 
 * Transformers : 
-   * pip install transformers 
+   pip install transformers 
 * SentencePiece : 
-   * pip install sentencepiece  
+   pip install sentencepiece  
 * Evaluate :
-   * pip install evaluate   
+   pip install evaluate   
 
 ### File Content and Description 
 

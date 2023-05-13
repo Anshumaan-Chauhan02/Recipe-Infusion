@@ -21,20 +21,20 @@ Two different areas where our datasets were used are Fine tuning of DistilGPT2 (
       * https://www.kaggle.com/datasets/nasirkhalid24/the-office-us-complete-dialoguetranscript 
 
 ### Libraries Used and Installation Steps: 
-* Numpy : 
-   pip install numpy  
-* Pandas :
-   pip install pandas 
-* Itertools : 
-   pip install itertools 
-* Sklearn : 
-   pip install sklearn 
-* Transformers : 
-   pip install transformers 
-* SentencePiece : 
-   pip install sentencepiece  
-* Evaluate :
-   pip install evaluate   
+## Numpy : 
+    pip install numpy  
+## Pandas :
+    pip install pandas 
+## Itertools : 
+    pip install itertools 
+## Sklearn : 
+    pip install sklearn 
+## Transformers : 
+    pip install transformers 
+## SentencePiece : 
+    pip install sentencepiece  
+## Evaluate :
+    pip install evaluate   
 
 ### File Content and Description 
 

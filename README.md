@@ -21,20 +21,22 @@ Two different areas where our datasets were used are Fine tuning of DistilGPT2 (
       * https://www.kaggle.com/datasets/nasirkhalid24/the-office-us-complete-dialoguetranscript 
 
 ### Libraries Used and Installation Steps: 
-##### Numpy : Perform several mathematical evaluations in the preprocessing of the datasets
+#### 1) Numpy : Perform several mathematical evaluations in the preprocessing of the datasets
     pip install numpy  
-##### Pandas : Loading/Processing/Storing of the different datasets
+#### 2) Pandas : Loading/Processing/Storing of the different datasets
     pip install pandas 
-##### Itertools : Easy iteration of large lists 
+#### 3) Itertools : Easy iteration of large lists 
     pip install itertools 
-##### Sklearn : Cosine Similarity and TF-IDF
+#### 4) Sklearn : Cosine Similarity and TF-IDF
     pip install sklearn 
-##### Transformers : DistilGPT2, T5-small, MarianMT (both model and tokenizers)
+#### 5) Transformers : DistilGPT2, T5-small, MarianMT (both model and tokenizers)
     pip install transformers 
-##### SentencePiece : Used by MarianMT's tokenizer (Back Translation)
+#### 6) SentencePiece : Used by MarianMT's tokenizer (Back Translation)
     pip install sentencepiece  
-##### Evaluate : BLEU Score evaluation 
+#### 7) Evaluate : BLEU Score evaluation 
     pip install evaluate   
+#### 8) Matplotlib: Plotting of the training curves 
+    pip install matplotlib
 
 ### File Content and Description 
 

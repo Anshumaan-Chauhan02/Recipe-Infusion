@@ -39,6 +39,19 @@ Two different areas where our datasets were used are Fine tuning of DistilGPT2 (
     pip install matplotlib
 
 ### File Content and Description 
-
+* RecipeDataset.ipynb :
+* Statistics.ipynb :
+* Recipe_Generation_DistilGPT.ipynb :
+* Preprocess_TST_dataset.ipynb : 
+* Shakespeare_and_Scripts_Preprocessing.ipynb : 
+* BackTranslation.ipynb :
+* TST_Architecture.ipynb :
 
 ### Steps to successfully run the project
+1) 
+2) 
+3)
+4)
+5)
+6)
+

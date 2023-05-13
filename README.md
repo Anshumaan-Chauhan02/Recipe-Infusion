@@ -80,7 +80,10 @@ Except training (due to computational limitations) of the LLMs all of the code w
 2) Download all the Recipe Datasets and upload the zip files on the Drive
 3) Run RecipeDataset.ipynb to get the 'Final_dataset' file, which consists of the preprocessed concatenated dataset
 4) Run Statistics.ipynb file to know some statistics about the datasets [OPTIONAL]
-5) Run Recipe_Generation_DistilGPT.ipynb to get the finetuned recipe generation model 
+5) Run Recipe_Generation_DistilGPT.ipynb to get the finetuned recipe generation model and Recipe generations 
 6) Download the Text Style Transfer datasets. Create a new sub-folder {persona}_TST. For example, Taylor_TST
-7)
+7) Upload the datasets for Taylor and Trump in the sub-folder, whereas for Shakespeare and Michael in the main folder
+8) Run the Preprocess_TST_dataset.ipynb and Shakespeare_and_Scripts_Preprocessing.ipynb to get the appropriate formatted dataset for Back translation
+9) Run BackTranslation.ipynb to get a parallel dataset for Taylor, Trump and Shakespeare
+10) Run TST_Architecture.ipynb file to get the finetuned TST models
 

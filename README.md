@@ -30,33 +30,33 @@
 ### Dependencies<a name="depend"></a>
 1. Numpy : Perform several mathematical evaluations in the preprocessing of the datasets
 
-    pip install numpy  
+    `pip install numpy  `
 2. Pandas : Loading/Processing/Storing of the different datasets
 
-    pip install pandas 
+    `pip install pandas `
 3. Itertools : Easy iteration of large lists 
 
-    pip install itertools 
+    `pip install itertools` 
 4.  Sklearn : Cosine Similarity and TF-IDF
 
-    pip install sklearn 
+    `pip install sklearn `
 5. Transformers : DistilGPT2, T5-small, MarianMT (both model and tokenizers)
 
-    pip install transformers 
+    `pip install transformers `
 6. SentencePiece : Used by MarianMT's tokenizer (Back Translation)
 
-    pip install sentencepiece  
+    `pip install sentencepiece ` 
 7. Evaluate : BLEU Score evaluation 
 
-    pip install evaluate   
+    `pip install evaluate`   
 8. Matplotlib: Plotting of the training curves 
 
-    pip install matplotlib
+    `pip install matplotlib`
 
 ### Files<a name="files"></a>
 * RecipeDataset.ipynb : 
      * Loading of both Recipes datasets 
-     * Preprocessing the datasets to get into a common useful format 
+     * Preprocessing datasets to get into a common format 
      * Performing statistical analysis on the data
      * Storing the final concatenated dataset 
 * Statistics.ipynb :
@@ -72,7 +72,7 @@
 * Preprocess_TST_dataset.ipynb : 
      *  Loading the non-parallel data - Taylor and Trump
      *  Preprocess the datasets
-     *  Extract some statistical info about the dataset 
+     *  Extract statistical info about the dataset 
 * Shakespeare_and_Scripts_Preprocessing.ipynb : 
      *  Loading the non-parallel data - Michael 
      *  Load the parallel data -  Shakespeare 
@@ -95,13 +95,13 @@
 ### How to Run<a name="run"></a>
 Except training (due to computational limitations) of the LLMs all of the code was implemented in Google Colab. We have listed the steps that needed to be followed for a successful implementation of the project.
 1) Download all the .ipynb files and upload them in a new folder on Google Drive named 'Project 685'
-2) Download all the Recipe Datasets and upload the zip files on the Drive
+2) Download all the Recipe Datasets and add to top level folder 'Project 685'
 3) Run RecipeDataset.ipynb to get the 'Final_dataset' file, which consists of the preprocessed concatenated dataset
-4) Run Statistics.ipynb file to know some statistics about the datasets [OPTIONAL]
+4) Run Statistics.ipynb file to display some statistics about the datasets [OPTIONAL]
 5) Run Recipe_Generation_DistilGPT.ipynb to get the finetuned recipe generation model and Recipe generations 
-6) Download the Text Style Transfer datasets. Create a new sub-folder {persona}_TST. For example, Taylor_TST
-7) Upload the datasets for Taylor and Trump in the sub-folder, whereas for Shakespeare and Michael in the main folder
+6) Download the Text Style Transfer datasets. Create a new sub-folder {persona}_TST. (ex. Taylor_TST)
+7) Upload the .zip datasets for Taylor and Trump in their respective sub-folders. For Shakespeare and Michael add unzipped .csv files to top level folder
 8) Run the Preprocess_TST_dataset.ipynb and Shakespeare_and_Scripts_Preprocessing.ipynb to get the appropriate formatted dataset for Back translation
-9) Run BackTranslation.ipynb to get a parallel dataset for Taylor, Trump and Shakespeare
-10) Run TST_Architecture.ipynb file to get the finetuned TST models
+9) Run BackTranslation.ipynb to get a parallel dataset for Taylor, Trump and Michael
+10) Run TST_Architecture.ipynb file to get the finetuned TST models and generate final outputs 
 
